@@ -1,7 +1,7 @@
 services:
   - type: web
     name: springmvc-app
-    env: java
+    runtime: java
     plan: free
     branch: main
     buildCommand: "./mvnw clean install"  # or "mvn clean install"
